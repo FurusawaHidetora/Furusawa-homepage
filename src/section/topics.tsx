@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Topics = () => {
   return (
     <div
@@ -18,37 +20,35 @@ export const Topics = () => {
           flexDirection: "column",
         }}
       >
-        <button onClick={() => (window.location.href = "random")}>
+        <div>
           <img
             src="/article/IMG_0992.jpg"
             alt="IMG_0992"
             style={{ width: "800px" }}
           />
-        </button>
+        </div>
       </div>
       <div
         className="small-topic"
         style={{ display: "flex", flexDirection: "row" }}
       >
-        <button onClick={() => (window.location.href = "random")}>
+        <div>
           <img
             src="/article/IMG_0025.jpg"
             alt="IMG_0025"
             style={{ width: "400px" }}
           />
-        </button>
-        <button onClick={() => (window.location.href = "random")}>
+        </div>
+        <div>
           <img
             src="/article/IMG_9965.jpg"
             alt="IMG_9965"
             style={{ width: "400px" }}
           />
-        </button>
+        </div>
       </div>
 
-      <button onClick={() => (window.location.href = "WORKS")}>
-        VIEW MORE
-      </button>
+      <Link to="/Articles">VIEW MORE</Link>
     </div>
   );
 };

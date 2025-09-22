@@ -1,6 +1,7 @@
-import { About } from "./section/about";
-import { News } from "./section/news";
-import { Topics } from "./section/topics";
+import { Route, Routes } from "react-router-dom";
+import { Home } from "./pages/home";
+import { ArticleList } from "./pages/articleList";
+import { ArticleItem } from "./pages/articleItem";
 
 function App() {
   return (
@@ -23,11 +24,13 @@ function App() {
           alignItems: "center",
         }}
       >
-        <div style={{ position: "absolute", left: "10px" }}>フルサワークス</div>
+        <div style={{ marginLeft: "10px" }}>フルサワークス</div>
       </header>
-      <Topics />
-      <About />
-      <News />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Articles" element={<ArticleList />} />
+        <Route path="/Articles/Content" element={<ArticleItem />} />
+      </Routes>
       <footer>
         <p>&copy; 2025 フルサワークス</p>
       </footer>
