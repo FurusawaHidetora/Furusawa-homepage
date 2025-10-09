@@ -33,6 +33,7 @@ function App() {
       </Routes>
       <footer>
         <p>&copy; 2025 フルサワークス</p>
+        <p>ピーナッツワークス</p>
       </footer>
     </div>
   );
