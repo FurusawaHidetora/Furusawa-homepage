@@ -11,6 +11,7 @@ function App() {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
+        backgroundColor: "#f0f0f0",
       }}
     >
       <header
@@ -33,7 +34,6 @@ function App() {
       </Routes>
       <footer>
         <p>&copy; 2025 フルサワークス</p>
-        <p>ピーナッツワークス</p>
       </footer>
     </div>
   );

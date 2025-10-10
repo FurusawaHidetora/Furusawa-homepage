@@ -2,7 +2,11 @@ export const About = () => {
   return (
     <div className="ABOUT">
       <div>
-        <img src="my-photo" alt="my-photo" />
+        <img
+          style={{ width: "200px", height: "auto" }}
+          src="/about/profile_photo.jpg"
+          alt="my-photo"
+        />
       </div>
       <div className="name">フルサーワ</div>
       <div>
