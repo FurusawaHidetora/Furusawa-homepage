@@ -30,7 +30,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Articles" element={<ArticleList />} />
-        <Route path="/Articles/Content" element={<ArticleItem />} />
+        <Route path="/Articles/:blogId" element={<ArticleItem />} />
       </Routes>
       <footer>
         <p>&copy; 2025 フルサワークス</p>
