@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import ReactMarkdown from "react-markdown"; // 👈 インポート
 import remarkGfm from "remark-gfm"; // 👈 インポート
 import { blogMetadata } from "../data/Blogs"; // メタデータ
+import rehypeRaw from "rehype-raw";
 
 export const ArticleItem = () => {
   const { blogId } = useParams();
@@ -52,7 +53,9 @@ export const ArticleItem = () => {
       <p>公開日: {metadata.date}</p>
 
       {/* 3. ReactMarkdownコンポーネントにテキストを渡し、HTMLとして表示 */}
-      <ReactMarkdown remarkPlugins={[remarkGfm]}>{postContent}</ReactMarkdown>
+      <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
+        {postContent}
+      </ReactMarkdown>
 
       <Link to="/articles">リストに戻る</Link>
     </div>
