@@ -23,7 +23,7 @@ export const ArticleCard = ({
           src={photoName}
           alt={photoName}
           style={{
-            width: "40vw",
+            width: "90vw",
             aspectRatio: "16/9",
             objectFit: "cover",
             borderTopRightRadius: "8px",
@@ -34,7 +34,7 @@ export const ArticleCard = ({
         <div
           className="title"
           style={{
-            width: "40vw",
+            width: "90vw",
             aspectRatio: "16/3",
             textAlign: "center",
             backgroundColor: "white",
@@ -56,7 +56,7 @@ export const Topics = () => {
     return (
       <ArticleCard
         key={value.id}
-        photoName={`/article/${value.id}.jpg`}
+        photoName={`/article-photo/${value.id}.jpg`}
         articleTitle={value.title}
         linkName={value.id}
       />
@@ -73,7 +73,7 @@ export const Topics = () => {
         flexDirection: "column",
       }}
     >
-      <div>TOPICS</div>
+      <div style={{ padding: "20px" }}>BLOGS</div>
 
       <div
         className="topic"
@@ -82,7 +82,9 @@ export const Topics = () => {
         {blogList}
       </div>
 
-      <Link to="/Articles">VIEW MORE</Link>
+      <Link to="/Articles" style={{ padding: "20px" }}>
+        VIEW MORE
+      </Link>
     </div>
   );
 };

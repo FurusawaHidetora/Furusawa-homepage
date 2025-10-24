@@ -8,7 +8,7 @@ export const ArticleList = () => {
     return (
       <ArticleCard
         key={value.id}
-        photoName={`/article/${value.id}.jpg`}
+        photoName={`/article-photo/${value.id}.jpg`}
         articleTitle={value.title}
         linkName={value.id}
       />
