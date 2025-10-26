@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.b6e20b39.css",
-    "main.js": "/static/js/main.60e04ffc.js",
-    "static/js/453.bd6db19c.chunk.js": "/static/js/453.bd6db19c.chunk.js",
-    "index.html": "/index.html",
-    "main.b6e20b39.css.map": "/static/css/main.b6e20b39.css.map",
-    "main.60e04ffc.js.map": "/static/js/main.60e04ffc.js.map",
-    "453.bd6db19c.chunk.js.map": "/static/js/453.bd6db19c.chunk.js.map"
+    "main.css": "/Furusawa-homepage/static/css/main.b6e20b39.css",
+    "main.js": "/Furusawa-homepage/static/js/main.86b2852c.js",
+    "static/js/453.bd6db19c.chunk.js": "/Furusawa-homepage/static/js/453.bd6db19c.chunk.js",
+    "index.html": "/Furusawa-homepage/index.html",
+    "main.b6e20b39.css.map": "/Furusawa-homepage/static/css/main.b6e20b39.css.map",
+    "main.86b2852c.js.map": "/Furusawa-homepage/static/js/main.86b2852c.js.map",
+    "453.bd6db19c.chunk.js.map": "/Furusawa-homepage/static/js/453.bd6db19c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b6e20b39.css",
-    "static/js/main.60e04ffc.js"
+    "static/js/main.86b2852c.js"
   ]
 }
