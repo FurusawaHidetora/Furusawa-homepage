@@ -47,7 +47,7 @@ function App() {
           <Link to="/" style={{ marginRight: "20px" }}>
             <img
               style={{ width: "28px" }}
-              src="icon/home1.svg"
+              src={`${process.env.PUBLIC_URL}/icon/home1.svg`}
               alt="home-icon"
             />
           </Link>

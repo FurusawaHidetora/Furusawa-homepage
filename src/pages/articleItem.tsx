@@ -56,7 +56,7 @@ export const ArticleItem = () => {
           aspectRatio: "3/1",
           objectFit: "cover",
         }}
-        src={`/article-photo/${metadata.id}.jpg`}
+        src={`${process.env.PUBLIC_URL}/article-photo/${metadata.id}.jpg`}
         alt={`/article-photo/${metadata.id}.jpg`}
       />
       <h1>{metadata.title}</h1>

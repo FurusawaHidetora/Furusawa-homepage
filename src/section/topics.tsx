@@ -69,7 +69,7 @@ export const Topics = () => {
     return (
       <ArticleCard
         key={value.id}
-        photoName={`/article-photo/${value.id}.jpg`}
+        photoName={`${process.env.PUBLIC_URL}/article-photo/${value.id}.jpg`}
         articleTitle={value.title}
         linkName={value.id}
       />

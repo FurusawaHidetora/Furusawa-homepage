@@ -30,7 +30,7 @@ export const About = () => {
             aspectRatio: "1/1",
             objectFit: "cover",
           }}
-          src="/about/profile_photo.jpg"
+          src={`${process.env.PUBLIC_URL}/about/profile_photo.jpg`}
           alt="my-photo"
         />
       </div>
