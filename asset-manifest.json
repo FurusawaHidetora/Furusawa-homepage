@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Furusawa-homepage/static/css/main.b6e20b39.css",
+    "main.js": "/Furusawa-homepage/static/js/main.cb721088.js",
+    "static/js/453.bd6db19c.chunk.js": "/Furusawa-homepage/static/js/453.bd6db19c.chunk.js",
+    "index.html": "/Furusawa-homepage/index.html",
+    "main.b6e20b39.css.map": "/Furusawa-homepage/static/css/main.b6e20b39.css.map",
+    "main.cb721088.js.map": "/Furusawa-homepage/static/js/main.cb721088.js.map",
+    "453.bd6db19c.chunk.js.map": "/Furusawa-homepage/static/js/453.bd6db19c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6e20b39.css",
+    "static/js/main.cb721088.js"
+  ]
+}
