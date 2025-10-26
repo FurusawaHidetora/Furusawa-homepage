@@ -15,6 +15,9 @@ export const ArticleList = () => {
     );
   });
   return (
-    <div style={{ display: "flex", flexDirection: "column" }}>{blogList}</div>
+    <div className="blog-list">
+      <div style={{ height: "50px" }} />
+      <div style={{ display: "flex", flexDirection: "column" }}>{blogList}</div>
+    </div>
   );
 };

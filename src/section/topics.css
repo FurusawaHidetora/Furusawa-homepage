@@ -1,0 +1,13 @@
+.article-card:hover .article-card-photo {
+  transform: scale(1.1);
+}
+
+.view-more-button {
+  background-color: black;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.view-more-button:hover {
+  background-color: rgb(101, 101, 101);
+}

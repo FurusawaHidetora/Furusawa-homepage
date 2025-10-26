@@ -48,7 +48,17 @@ export const ArticleItem = () => {
   }
 
   return (
-    <div>
+    <div style={{ width: "90vh", maxWidth: "700px", marginTop: "50px" }}>
+      <img
+        style={{
+          width: "90vh",
+          maxWidth: "700px",
+          aspectRatio: "3/1",
+          objectFit: "cover",
+        }}
+        src={`/article-photo/${metadata.id}.jpg`}
+        alt={`/article-photo/${metadata.id}.jpg`}
+      />
       <h1>{metadata.title}</h1>
       <p>公開日: {metadata.date}</p>
 
@@ -57,7 +67,16 @@ export const ArticleItem = () => {
         {postContent}
       </ReactMarkdown>
 
-      <Link to="/articles">リストに戻る</Link>
+      <Link
+        to="/articles"
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+        }}
+      >
+        リストに戻る
+      </Link>
     </div>
   );
 };

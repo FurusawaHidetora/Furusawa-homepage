@@ -1,7 +1,8 @@
-import { Route, Routes } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/home";
 import { ArticleList } from "./pages/articleList";
 import { ArticleItem } from "./pages/articleItem";
+import "./app.css";
 
 function App() {
   return (
@@ -28,18 +29,28 @@ function App() {
         <header
           className="App-header"
           style={{
+            width: "100%",
             backgroundColor: "black",
             color: "white",
-            width: "100%",
-            padding: "20px",
+            padding: "10px",
             display: "flex",
             alignItems: "center",
             position: "sticky",
             top: "0px",
             zIndex: "10",
+            justifyContent: "space-between",
           }}
         >
-          <div style={{ marginLeft: "10px" }}>フルサワークス</div>
+          <div className="logo" style={{ marginLeft: "20px" }}>
+            フルサーワ裏通信
+          </div>
+          <Link to="/" style={{ marginRight: "20px" }}>
+            <img
+              style={{ width: "28px" }}
+              src="icon/home1.svg"
+              alt="home-icon"
+            />
+          </Link>
         </header>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -47,7 +58,17 @@ function App() {
           <Route path="/Articles/:blogId" element={<ArticleItem />} />
         </Routes>
         <footer>
-          <p>&copy; 2025 フルサワークス</p>
+          <div
+            style={{
+              fontFamily: "WDXL Lubrifont JP N, sans-serif",
+              fontWeight: "400",
+              fontStyle: "normal",
+              fontSize: "24px",
+              paddingBottom: "10px",
+            }}
+          >
+            &copy; 2025 フルサーワ裏通信
+          </div>
         </footer>
       </div>
     </div>

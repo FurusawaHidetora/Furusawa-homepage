@@ -5,5 +5,5 @@ export type NewsItem = {
 };
 
 export const newsData: NewsItem[] = [
-  { id: 1, title: "Webサイトを公開しました", date: "2025-09-20" },
+  { id: 1, title: "Webサイトを公開しました", date: "2025-10-26" },
 ];
