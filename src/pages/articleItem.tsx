@@ -48,10 +48,17 @@ export const ArticleItem = () => {
   }
 
   return (
-    <div style={{ width: "90vh", maxWidth: "700px", marginTop: "50px" }}>
+    <div
+      style={{
+        width: "90vw",
+        maxWidth: "700px",
+        marginTop: "50px",
+        boxSizing: "border-box",
+      }}
+    >
       <img
         style={{
-          width: "90vh",
+          width: "90vw",
           maxWidth: "700px",
           aspectRatio: "3/1",
           objectFit: "cover",

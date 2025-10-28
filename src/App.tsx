@@ -29,10 +29,11 @@ function App() {
         <header
           className="App-header"
           style={{
-            width: "100%",
+            width: "100vw",
             backgroundColor: "black",
             color: "white",
-            padding: "10px",
+            paddingTop: "10px",
+            paddingBottom: "10px",
             display: "flex",
             alignItems: "center",
             position: "sticky",
@@ -64,7 +65,7 @@ function App() {
               fontWeight: "400",
               fontStyle: "normal",
               fontSize: "24px",
-              paddingBottom: "10px",
+              paddingBottom: "50px",
             }}
           >
             &copy; 2025 フルサーワ裏通信
