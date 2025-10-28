@@ -43,7 +43,7 @@ function App() {
           }}
         >
           <div className="logo" style={{ marginLeft: "20px" }}>
-            フルサーワ裏通信
+            フルサーワ裏通信 正常にコミットできてるよ
           </div>
           <Link to="/" style={{ marginRight: "20px" }}>
             <img
